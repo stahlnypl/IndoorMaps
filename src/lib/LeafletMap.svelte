@@ -738,8 +738,9 @@ map.on('baselayerchange', function(e) {
 
 <style>
     @import 'leaflet/dist/leaflet.css';
+	@import 'static/css/style.css';
     main div {
-        height: 800px;
+        height: 100vh;
     }
 
     html, body {
